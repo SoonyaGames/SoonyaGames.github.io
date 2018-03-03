@@ -8,6 +8,11 @@ a{
    transition: box-shadow 1s ease, color 1s 
 }
 
+
+h2:hover{
+    border-bottom: 2px solid black;
+}
+
 li{
    text-decoration: none;
    list-style: none;
@@ -36,6 +41,8 @@ nav{
    height: 100%;
 
 }
+
+
 
 .topnav{
    background-color: #5B5B80
@@ -85,7 +92,13 @@ nav{
    
 }
 
+.advanteges_item
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+
+}
 
 @media screen and (max-width: 750px){
    .topnav{
