@@ -12,9 +12,8 @@ li{
 
 body{
    font-family: 'Oswald', sans-serif;
-   //background: linear-gradient(-45deg, #fefcea, #51A3DA); 
-   background: url(image/backlogo.jpg) no-repeat;
-   background-size: 100%; /* Современные браузеры */
+   background: url(image/backlogo.png) no-repeat;
+   background-size: 100%; 
    
 }
 .logo{
