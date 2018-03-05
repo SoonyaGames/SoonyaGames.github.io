@@ -13,7 +13,9 @@ li{
 body{
    font-family: 'Oswald', sans-serif;
    background: url(image/backlogo.png) no-repeat;
-   background-size: 100%; 
+   background-size: 100%;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+   -o-background-size: 100%; /* Opera 9.6+ */ 
    
 }
 .logo{
