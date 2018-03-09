@@ -1,12 +1,21 @@
 ﻿<!DOCTYPE HTML>
 <html>
+	
 <head>
   <meta charset="utf-8">
   <title>ALADIN</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script type="text/javascript" src="JQuery.js"></script>  
+  <script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+});</script>
 </head>
 <body>
+  <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка . . .</small></div></div>  
   <header>
     <div class="logo">
       <a href="HTML.html"><img class="graficlogo" src="image/logo.png" alt="LOGO"></a>
@@ -74,7 +83,6 @@
         <a href="https://vk.com/" target="_blank"><img src="image/social/vk.png" alt="" width="43" height="43"></a> 
      </div>
   </footer>
-	
   <script src="script.js"></script>
 </body>
 </html>
