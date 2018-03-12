@@ -34,8 +34,8 @@ body{
 }
 
 nav{
-   margin: auto;
-   height: 100%;
+//   margin: auto;
+//   height: 100%;
 }
 
 
@@ -175,6 +175,11 @@ footer nav a:hover{
     border-radius: 50%;
 }
 
+td{
+  mergin: auto;
+  padding-top: -20px;
+}
+
 #p_prldr{
     position: fixed;
     left: 0;
@@ -208,4 +213,7 @@ footer nav a:hover{
     background-size:41px;    
     margin: -16px 0 0 -16px;}
 
+td {
+   height: 140;
 
+}
