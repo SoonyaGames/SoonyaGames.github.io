@@ -1,54 +1,211 @@
-body {
- background-color: #EEEEEE;
- overflow: scroll;
+*{
+   margin: 0;
+   padding: 0;
 }
-th,td,p { 
- font-family: Verdana, Arial, Helvetica, sans-serif;
- font-size : 12px; 
- line-height: 18px;
+
+
+
+li{
+   text-decoration: none;
+   list-style: none;
 }
-h3,h4,h5,p,ul,ol,dl,pre,blockquote {
- margin-top: 5px;
- margin-bottom: 5px;
+
+body{
+   font-family: 'Oswald', sans-serif;
+   background: url(image/backlogo.png) no-repeat;
+   background-size: 100%;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+   -o-background-size: 100%; /* Opera 9.6+ */ 
+   
 }
-small {
- font-family: Verdana, Arial, Helvetica, sans-serif;
- font-size : 9px; 
- line-height: 12px;
+.logo{
+   
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  
 }
-a:link,a:active { 
- text-decoration: none; color : #006699; 
+
+
+.graficlogo{
+   padding: 5px;
+   max-width: 100%;
+   box-sizing: border-box;
 }
-a:visited {
- text-decoration: none; color : #003399; 
+
+nav{
+   margin: auto;
+   height: 100%;
 }
-a:hover	{ 
- text-decoration: underline; color : #DD6900; 
+
+
+
+.topnav{
+   background-color: #5B5B80
+   font-size: 14px;
+   mergin-top: 40px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
 }
-a[target="_blank"] { 
- background-color: #FFFF99;
+
+.topnav a{
+   text-align: center;
+   line-height:1em;
+   padding: 14px 40px;
+   font-size: 25px;
+   display: flex;
+   max-width: 100%;
+   box-sizing: border-box;
+   color: #000000;
+   transition: box-shadow 1s ease, color 1s
 }
-a {
- background-color: expression((this.getAttribute("target") && this.getAttribute("target")=="_blank") ? "#FFFF99" : "transparent");
+
+.topnav a:hover{
+   box-shadow: inset 0 -3em #000000;
+   color: #FFFFFF;
 }
-pre {
- font-family: "Courier New", sans-serif; font-size: 11px; color: #006600;
- background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
- border-width: 1px;
+
+.topnav .icon{
+   display: none;
 }
-blockquote {
- font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
- background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
- border-width: 1px;
+
+.advanteges_conteiner{
+   display: flex;
+   justify-content: center;
 }
-form {
- margin: 3px 2px 3px 3px; 
+
+.advanteges
+{
+   padding-top: 40px;
+   padding-top: 40px;
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   flex-wrap: wrap;
+   
 }
-input,textarea,select {
- color : #000000;
- background-color : #FFFFFF;
- font: normal 12px Verdana, Arial, Helvetica, sans-serif;
- border-color : #000000;
- border-width: 1px;
+
+.advanteges_item
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-input { text-indent : 2px; }
+
+
+
+.advanteges_name a:hover{
+    border-bottom: 2px solid black;
+}
+
+a{
+   text-decoration: none;
+   color: #000;
+}
+
+
+@media screen and (max-width: 750px){
+   .topnav{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   }
+
+  
+   
+   .advanteges_conteiner{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    }
+}
+
+@media screen and (max-width: 590px){
+   .advanteges{
+      flex-direction: colomn;
+      display: flex;
+      justify-content: center;  
+   }
+   .advanteges_item{
+      width: 100%;
+   }
+}
+
+html { 
+ position:relative; 
+ min-height:100%;
+}
+
+footer{
+ 
+   width: 100%;
+   height: auto
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 25px;
+   position: absolute;
+   bottom: 0;
+   background: linear-gradient( #FFFFFF, #51A3DA); 
+}
+
+
+footer a{
+   color: black;
+   font-size: 12px;
+   margin-left: 10px;
+
+}
+
+footer nav a:hover{
+   border-bottom: 2px solid black;
+   
+   
+}
+
+.social img{
+    margin-left: 10px;
+    margin-botton: 10px;
+    margin-top: 10px;
+}
+
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(to top, #FFFFFF, #51A3DA);
+    z-index: 30;
+}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:#fff;
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;}
+ 
+#p_prldr .svg_anm {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background: url(image/tail-spin.svg) center center no-repeat;
+    background-size:41px;    
+    margin: -16px 0 0 -16px;}
+
+
