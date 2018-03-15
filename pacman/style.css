@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+﻿
 ﻿#pacman {
         height:520px;
         width:342px;
@@ -12,12 +11,6 @@
         visibility:hidden
 }
 
-
-
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 *{
    margin: 0;
    padding: 0;
@@ -32,16 +25,8 @@ li{
 
 body{
    font-family: 'Oswald', sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
    margin:auto;
-   background: url(../image/backlogo.png) no-repeat;
-=======
-   background: url(image/backlogo.png) no-repeat;
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
-=======
-   background: url(image/backlogo.png) no-repeat;
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+   background: url(backlogo.png) no-repeat;
    background-size: 100%;
    -moz-background-size: 100%; /* Firefox 3.6+ */
    -o-background-size: 100%; /* Opera 9.6+ */ 
@@ -63,19 +48,8 @@ body{
 }
 
 nav{
-<<<<<<< HEAD
-<<<<<<< HEAD
    margin: auto;
    height: 100%;
-
-=======
-//   margin: auto;
-//   height: 100%;
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
-=======
-//   margin: auto;
-//   height: 100%;
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 }
 
 
@@ -215,20 +189,12 @@ footer nav a:hover{
     border-radius: 50%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 td{
   mergin: auto;
   padding-top: -20px;
 }
 
-<<<<<<< HEAD
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+
 #p_prldr{
     position: fixed;
     left: 0;
@@ -262,17 +228,8 @@ td{
     background-size:41px;    
     margin: -16px 0 0 -16px;}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 td {
    height: 140;
 
 }
-<<<<<<< HEAD
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
-=======
->>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+
