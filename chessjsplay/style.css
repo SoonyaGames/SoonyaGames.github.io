@@ -14,6 +14,7 @@ body{
    font-family: 'Oswald', sans-serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    background: url(../image/backlogo.png) no-repeat;
 =======
    background: url(backlogo.png) no-repeat;
@@ -21,6 +22,9 @@ body{
 =======
    background: url(backlogo.png) no-repeat;
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+=======
+   background: url(image/backlogo.png) no-repeat;
+>>>>>>> parent of 6166abc... дизайн на паквмана
    background-size: 100%;
    -moz-background-size: 100%; /* Firefox 3.6+ */
    -o-background-size: 100%; /* Opera 9.6+ */ 
@@ -217,7 +221,7 @@ td{
     position: absolute;
     width: 41px;
     height: 41px;
-    background: url(../image/tail-spin.svg) center center no-repeat;
+    background: url(image/tail-spin.svg) center center no-repeat;
     background-size:41px;    
     margin: -16px 0 0 -16px;}
 
