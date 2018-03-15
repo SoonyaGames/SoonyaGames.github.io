@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pacman {
         height:520px;
         width:342px;
@@ -13,6 +14,8 @@
 
 
 
+=======
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 =======
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 *{
@@ -30,8 +33,12 @@ li{
 body{
    font-family: 'Oswald', sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
    margin:auto;
    background: url(../image/backlogo.png) no-repeat;
+=======
+   background: url(image/backlogo.png) no-repeat;
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 =======
    background: url(image/backlogo.png) no-repeat;
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
@@ -57,9 +64,14 @@ body{
 
 nav{
 <<<<<<< HEAD
+<<<<<<< HEAD
    margin: auto;
    height: 100%;
 
+=======
+//   margin: auto;
+//   height: 100%;
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 =======
 //   margin: auto;
 //   height: 100%;
@@ -204,12 +216,18 @@ footer nav a:hover{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 td{
   mergin: auto;
   padding-top: -20px;
 }
 
+<<<<<<< HEAD
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+=======
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 #p_prldr{
     position: fixed;
@@ -245,10 +263,16 @@ td{
     margin: -16px 0 0 -16px;}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 td {
    height: 140;
 
 }
+<<<<<<< HEAD
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
+=======
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
