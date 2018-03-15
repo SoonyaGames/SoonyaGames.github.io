@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+﻿#pacman {
+        height:520px;
+        width:342px;
+        margin:20px auto;
+     
+}
+#shim { 
+        font-family: BDCartoonShoutRegular; 
+        position:absolute;
+        visibility:hidden
+}
+
+
+
+=======
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 *{
    margin: 0;
    padding: 0;
@@ -13,9 +30,10 @@ li{
 body{
    font-family: 'Oswald', sans-serif;
 <<<<<<< HEAD
+   margin:auto;
    background: url(../image/backlogo.png) no-repeat;
 =======
-   background: url(backlogo.png) no-repeat;
+   background: url(image/backlogo.png) no-repeat;
 >>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
    background-size: 100%;
    -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -38,8 +56,14 @@ body{
 }
 
 nav{
+<<<<<<< HEAD
+   margin: auto;
+   height: 100%;
+
+=======
 //   margin: auto;
 //   height: 100%;
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 }
 
 
@@ -179,11 +203,14 @@ footer nav a:hover{
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
+=======
 td{
   mergin: auto;
   padding-top: -20px;
 }
 
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
 #p_prldr{
     position: fixed;
     left: 0;
@@ -213,11 +240,15 @@ td{
     position: absolute;
     width: 41px;
     height: 41px;
-    background: url(../image/tail-spin.svg) center center no-repeat;
+    background: url(image/tail-spin.svg) center center no-repeat;
     background-size:41px;    
     margin: -16px 0 0 -16px;}
 
+<<<<<<< HEAD
+
+=======
 td {
    height: 140;
 
 }
+>>>>>>> 37a11bdd1a0a8a152750928bc00c74b8d751ac22
