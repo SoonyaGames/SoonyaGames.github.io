@@ -72,7 +72,6 @@ a{
 
 
 footer{
- 
    width: 100%;
    height: auto
    margin: 0 auto;
@@ -80,7 +79,7 @@ footer{
    padding-top: 25px;
    position: absolute;
    bottom: 0;
-   background: linear-gradient( #FFFFFF, #51A3DA); 
+   background: linear-gradient( #FFFFFF, #51A3DA);
 }
 
 
@@ -88,7 +87,6 @@ footer a{
    color: black;
    font-size: 12px;
    margin-left: 10px;
-
 }
 
 footer nav a:hover{

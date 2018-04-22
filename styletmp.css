@@ -1,4 +1,4 @@
-*{
+﻿*{
    margin: 0;
    padding: 0;
 }
@@ -12,8 +12,7 @@ li{
 
 body{
    font-family: 'Oswald', sans-serif;
-
-   background: url(../image/backlogo.png) no-repeat;
+   background: url(image/backlogo.png) no-repeat;
    background-size: 100%;
    -moz-background-size: 100%; /* Firefox 3.6+ */
    -o-background-size: 100%; /* Opera 9.6+ */ 
@@ -35,8 +34,9 @@ body{
 }
 
 nav{
-//   margin: auto;
-//   height: 100%;
+   margin: auto;
+   height: 100%;
+
 }
 
 
@@ -176,13 +176,7 @@ footer nav a:hover{
     border-radius: 50%;
 }
 
-td{
-  margin: auto;
-  padding-top: -20px;
-}
 
 
-td {
-   height: 140;
 
-}
+
