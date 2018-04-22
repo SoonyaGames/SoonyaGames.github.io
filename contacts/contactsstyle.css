@@ -204,6 +204,16 @@ p{
     box-sizing: border-box;
 }
 
-
+.bodyMain{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 70%;  
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+#map {
+     height: 600px;
+     width: 70%;
+}
 
 

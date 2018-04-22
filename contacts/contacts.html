@@ -25,10 +25,27 @@
       
   <center>
   <div class="bodyMainZ">
-      <h1>О нашем проекте</h1>
+      <h1>Адрес компании</h1>
   </div>  
  </center>
-  
+
+<div id="map" class="bodyMain" >
+  <script >function initMap() {
+        var mtu = {lat: 55.669424, lng: 37.4678563};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: mtu
+        });
+        var marker = new google.maps.Marker({
+          position: mtu,
+          map: map
+        });
+      }  </script>  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKmMwGwGGO87c4Umt1ZRwBhAPCWshnAtM&callback=initMap">
+  </script>  
+  </div >  
+
   </main> 
   <footer>
      <nav>
