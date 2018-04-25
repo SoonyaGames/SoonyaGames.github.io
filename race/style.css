@@ -1,4 +1,9 @@
-
+#stack {
+    width: 130px;
+    height: 260px;
+    border: solid 1px black;
+    border-top: 0px;
+}
 
 .brick {
     width: 11px;
@@ -14,6 +19,10 @@
     background: green;
 }
 
+*{
+   margin: 0;
+   padding: 0;
+}
 
 
 
