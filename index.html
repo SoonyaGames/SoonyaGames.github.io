@@ -6,7 +6,8 @@
     <title>Soon Ya</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <script type="text/javascript" src="JQuery.js"></script>  
+    <script type="text/javascript" src="JQuery.js"></script> 
+    <script type="text/javascript" scr="DigitalClock.js"></script>
     <script type="text/javascript">$(window).on('load', function () {
             var $preloader = $('#p_prldr'),
                 $svg_anm   = $preloader.find('.svg_anm');
@@ -15,7 +16,49 @@
         });</script>
 </head>
 <body>
-    <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка . . .</small></div></div>  
+    <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка . . .</small></div></div>
+    
+        
+    <head>
+		<title> Digital Clock </title>
+		<style type= "text/css">
+			body
+            { 
+            }      
+			.clock
+			{
+		      position: absolute;
+			  top: 2%;
+			  left: 90%;
+			  color: #fff;
+			  font-size: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+	<div id="MyClock" class="clock"></div>
+		<script type="text/javascript">
+		function showTime()
+		{
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+    			
+			h = (h<10)?"0"+h:h;
+			m = (m<10)?"0"+m:m;
+			s = (s<10)?"0"+s:s;
+            
+			var time = h + ":" + m + ":" + s;
+			document.getElementById("MyClock").innerText = time;
+			document.getElementById("MyClock").textContent = time;
+			
+			setTimeout(showTime, 1000);
+		}
+		showTime();
+	 	</script>
+    
     <header>
         <div class="logo">
             <a href="HTML.html"><img class="graficlogo" src="image/logo.png" alt="LOGO"></a>
@@ -51,6 +94,9 @@
                         <h2><a href="seabattle/seabattle.html">Морской бой</a></h2>
                     </div>
                 </div>
+
+		<script class="clock/DigitalClock.js"></script>
+
                 <div class="advanteges_item">
                     <a href="sapper/sapper.html"><img src="image/3.png" width="200" height="200" alt=""></a>
                     <div class="advanteges_name">
@@ -65,12 +111,12 @@
                 </div> 
                 <div class="advanteges_item">
                     <a href="sapper/sapper.html"><img src="image/6.png" width="200" height="200" alt=""></a>
-                    <div class="advanteges_name">
+                   <div class="advanteges_name">
                         <h2><a href="sapper/sapper.html">Гонки</a></h2>
                     </div>
                 </div> 
             </div>     
-        </div>   
+        </div>
   </main>
   <footer>
       <nav>
