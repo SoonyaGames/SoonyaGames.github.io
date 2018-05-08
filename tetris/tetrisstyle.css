@@ -1,0 +1,240 @@
+﻿#tetriscanvas {
+ display: block;
+ border: 1px solid black;
+}
+#tetris {
+ margin: 0 auto;
+ width: 480px; 
+ height: 600px; 
+ text-align: center;
+ clear: both;
+}
+#tetrisleft {
+ width: 300px;
+ min-width: 300px;
+ height: 600px; 
+ float: left; 
+ margin: 0px; 
+}
+#tetrisright {
+ width: 180px; 
+ min-width: 180px;
+ height: 600px; 
+ float: left; 
+ margin: 0px;
+}
+.clear {
+ clear: left; /* Отмена обтекания */
+}
+.info {
+ text-align: left;
+ margin-left: 24px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+
+li{
+   text-decoration: none;
+   list-style: none;
+}
+
+body{
+   font-family: 'Oswald', sans-serif;
+   background: url(../image/backlogo.png) no-repeat;
+   background-size: 100%;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+   -o-background-size: 100%; /* Opera 9.6+ */ 
+   
+}
+.logo{
+   
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  
+}
+
+
+.graficlogo{
+   padding: 5px;
+   max-width: 100%;
+   box-sizing: border-box;
+}
+
+nav{
+   margin: auto;
+   height: 100%;
+
+}
+
+
+
+.topnav{
+   background-color: #5B5B80
+   font-size: 14px;
+   mergin-top: 40px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.topnav a{
+   text-align: center;
+   line-height:1em;
+   padding: 14px 40px;
+   font-size: 25px;
+   display: flex;
+   max-width: 100%;
+   box-sizing: border-box;
+   color: #000000;
+   transition: box-shadow 1s ease, color 1s
+}
+
+.topnav a:hover{
+   box-shadow: inset 0 -3em #000000;
+   color: #FFFFFF;
+}
+
+.topnav .icon{
+   display: none;
+}
+
+.advanteges_conteiner{
+   display: flex;
+   justify-content: center;
+}
+
+.advanteges
+{
+   padding-top: 40px;
+   padding-top: 40px;
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   flex-wrap: wrap;
+   
+}
+
+.advanteges_item
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.advanteges_name a:hover{
+    border-bottom: 2px solid black;
+}
+
+a{
+   text-decoration: none;
+   color: #000;
+}
+
+
+@media screen and (max-width: 750px){
+   .topnav{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   }
+
+  
+   
+   .advanteges_conteiner{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    }
+}
+
+@media screen and (max-width: 590px){
+   .advanteges{
+      flex-direction: colomn;
+      display: flex;
+      justify-content: center;  
+   }
+   .advanteges_item{
+      width: 100%;
+   }
+}
+
+html { 
+ position:relative; 
+ min-height:100%;
+}
+
+footer{
+ 
+   width: 100%;
+   height: auto
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 25px;
+   position: absolute;
+   bottom: 0;
+   background: linear-gradient( #FFFFFF, #51A3DA); 
+}
+
+
+footer a{
+   color: black;
+   font-size: 12px;
+   margin-left: 10px;
+
+}
+
+footer nav a:hover{
+   border-bottom: 2px solid black;
+   
+   
+}
+
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+
+
+.bodyMain{
+    padding-top: 30px;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 200px;
+    width: 70%;
+}
+h3{
+    text-align: justify;
+    font-weight: normal;
+}
+p{
+    text-indent: 50px;
+}
+
+.leftimg{
+    float:left; 
+    margin: 7px 7px -5px 0; 
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.rightimg{
+    float:right; 
+    margin: 7px 0 0 7px; 
+    max-width: 100%;
+    box-sizing: border-box;
+}

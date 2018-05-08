@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<html>	
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+  <title>Soon Ya</title>
+  <link rel="stylesheet" href="tetrisstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="HTML.html"><img class="graficlogo" src="../image/logo.png" alt="LOGO"></a>
+    </div>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="../index.html">HOME</a>
+        <a href="../aboutus/about.html">ABOUT US</a>
+        <a href="../index.html">PROJECTS</a>
+        <a href="../contacts/contacts.html">CONTACTS</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="bodyMain">    
+ <div id="tetris">
+  <div id="tetrisleft">
+   <canvas id="tetriscanvas" width="300" height="600"></canvas>
+   <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
+   <audio autoplay loop>
+    <source src="sound/music.ogg" type="audio/ogg; codecs=vorbis" preload="auto">
+    <small>Извините, тег audio не поддерживается вашим браузером</small>
+   </audio>
+  </div>
+  <div id="tetrisright">
+   <div align="center"><b>T E T R I S</b></div>
+   <p class="info">&harr;: move left/right;
+   <br>&uarr;: rotate;
+   <br>&darr; or _: drop;
+   <br>Esc: pause
+   </p>
+   <canvas id="figurecanvas" width="120" height="120"></canvas>
+   <p class="info" id="tetriscount"></p>
+  </div>
+  <div class="clear"></div>
+ </div>
+ <script src='game.js'></script>
+ <script src='controller.js'></script>
+ <script src='canvas.js'></script>
+     
+    </div>
+  <footer>
+     <nav>
+        <a href="../index.html">HOME</a>
+        <a href="../aboutus/about.html">ABOUT US</a>
+        <a href="../index.html">PROJECTS</a>
+      <a href="../contacts/contacts.html">CONTACTS</a>
+     </nav>
+     <div class="social">
+        <a href="https://www.instagram.com/" target="_blank" ><img src="../image/social/inst.png" alt=""></a>
+        <a href="https://ru-ru.facebook.com/" target="_blank"><img src="../image/social/face.png" alt=""></a>
+        <a href="https://e.mail.ru/login" target="_blank"><img src="../image/social/em.png" alt=""></a>
+        <a href="https://vk.com/" target="_blank"><img src="../image/social/vk.png" alt="" width="43" height="43"></a> 
+     </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

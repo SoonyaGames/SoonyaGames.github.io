@@ -24,8 +24,9 @@
       </div>
     </nav>
   </header>
-<div id="matrix" style="position: fixed; left:20px; top:50px;"></div>
-<div class="wrap">
+    <main>
+<div class="main">
+    <div id="matrix" style="position: fixed; left:20px; top:50px;"></div>
 	<div class="battlefield">
 		<div id="text_top" class="text-top">Расстановка кораблей</div>
 		<div class="outer clearfix">
@@ -33,15 +34,10 @@
 			<div class="field field-user">
 				<div id="field_user" class="ships"></div>
 			</div>
-			<!-- /playing field user -->
-
-			<!-- playing field comp -->
 			<div class="field field-comp" data-hidden="true">
 				<div id="field_comp" class="ships"></div>
 			</div>
-			<!-- /playing field comp -->
 
-			<!-- instruction -->
 			<div id="instruction" class="instruction" data-hidden="false">
 				<div id="type_placement" class="type-placement-box">
 					1. <span class="link" data-target="random">Случайным образом</span><br>
@@ -69,12 +65,13 @@
 					</ul>
 				</div>
 			</div>
-			<!-- /instruction -->
 		</div>
 		<span id="play" class="btn-play" data-hidden="true">Играть</span>
 		<div id="text_btm" class="text-btm"></div>
-	</div>
+	
 </div>
+    </div>
+    </main>
 <script src="seabattle.function.js"></script>
 <footer>
      <nav>
