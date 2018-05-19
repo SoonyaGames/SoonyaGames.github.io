@@ -189,6 +189,10 @@ footer nav a:hover{
     margin-bottom: 200px;
     width: 50%;
 }
+center{
+    align-content: center;
+}
+
 
 h3{
     text-align: justify;
