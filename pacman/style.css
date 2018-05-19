@@ -1,8 +1,9 @@
 ﻿
-﻿#pacman {
+#pacman {
         height:520px;
         width:342px;
         margin:20px auto;
+        
      
 }
 #shim { 
@@ -32,6 +33,11 @@ body{
    -o-background-size: 100%; /* Opera 9.6+ */ 
    
 }
+
+pacman{
+    margin-bottom: 70px;
+}
+
 .logo{
    
    width: 100%;
@@ -153,7 +159,7 @@ html {
 }
 
 footer{
- 
+
    width: 100%;
    height: auto
    margin: 0 auto;
