@@ -182,9 +182,10 @@ footer nav a:hover{
 
 .bodyMain{
     margin: auto;
-    margin-bottom: 200px;
-    width: 70%;
+    margin-bottom: auto;
+    width: 50%;
 }
+
 h3{
     text-align: justify;
     font-weight: normal;
