@@ -6,23 +6,66 @@
   <title>Soon Ya</title>
   <link rel="stylesheet" href="aboutstyle.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script type="text/javascript" scr="DigitalClock.js"></script>
 </head>
 <body>
+    
+    <head>
+		<title> Digital Clock </title>
+		<style type= "text/css">
+			body
+            { 
+            }      
+			.clock
+			{
+		      position: absolute;
+			  top: 2%;
+			  left: 90%;
+			  color: #fff;
+			  font-size: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+	<div id="MyClock" class="clock"></div>
+		<script type="text/javascript">
+		function showTime()
+		{
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+    			
+			h = (h<10)?"0"+h:h;
+			m = (m<10)?"0"+m:m;
+			s = (s<10)?"0"+s:s;
+            
+			var time = h + ":" + m + ":" + s;
+			document.getElementById("MyClock").innerText = time;
+			document.getElementById("MyClock").textContent = time;
+			
+			setTimeout(showTime, 1000);
+		}
+		showTime();
+	 	</script>
+    
   <header>
     <div class="logo">
-      <a href="HTML.html"><img class="graficlogo" src="../image/logo.png" alt="LOGO"></a>
+      <a href="../index.html"><img class="graficlogo" src="../image/logo.png" alt="LOGO"></a>
     </div>
     <nav>
       <div class="topnav" id="myTopnav">
         <a href="../index.html">HOME</a>
-        <a href="about.html">ABOUT US</a>
-        <a href="index.html">PROJECTS</a>
-        <a href="game3.html">CONTACTS</a>
+        <a href="../aboutus/about.html">ABOUT US</a>
+        <a href="../index.html">PROJECTS</a>
+        <a href="../contacts/contacts.html">CONTACTS</a>
       </div>
     </nav>
   </header>
   <main>
   <center>
+<<<<<<< HEAD
  div class="bodyMainZ">
       <h1>О нашем проекте</h1>
   </div> 
@@ -49,15 +92,18 @@
 
 
 
+=======
+  
+>>>>>>> 1197f0061c2549c5910dbee8a3e784f2ead43771
   </center>
       
   </main> 
   <footer>
      <nav>
-        <a href="HTML.html">HOME</a>
-        <a href="game2.html">ABOUT US</a>
-        <a href="game2.html">PROJECTS</a>
-      <a href="game3.html">CONTACTS</a>
+        <a href="../index.html">HOME</a>
+        <a href="../aboutus/about.html">ABOUT US</a>
+        <a href="../index.html">PROJECTS</a>
+      <a href="../contacts/contacts.html">CONTACTS</a>
      </nav>
      <div class="social">
         <a href="https://www.instagram.com/" target="_blank" ><img src="../image/social/inst.png" alt=""></a>

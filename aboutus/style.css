@@ -1,4 +1,25 @@
-﻿*{
+#stack {
+    width: 130px;
+    height: 260px;
+    border: solid 1px black;
+    border-top: 0px;
+}
+
+.brick {
+    width: 11px;
+    height: 11px;
+    border: solid 1px white;
+    background: white;
+    float: left;
+}
+.brick.on {
+    background: black;
+}
+.brick.now {
+    background: green;
+}
+
+*{
    margin: 0;
    padding: 0;
 }
@@ -177,10 +198,14 @@ footer nav a:hover{
 }
 
 .bodyMainZ{
-    margin-top: 25px;  
+    margin-top: 10px;
 }
 
-
+.bodyMain{
+    margin: auto;
+    margin-bottom: 200px;
+    width: 70%;
+}
 h3{
     text-align: justify;
     font-weight: normal;
@@ -202,17 +227,3 @@ p{
     max-width: 100%;
     box-sizing: border-box;
 }
-
-.bodyMain{
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 150px;
-    width: 70%;  
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-}
-#map {
-     height: 600px;
-     width: 70%;
-}
-
-

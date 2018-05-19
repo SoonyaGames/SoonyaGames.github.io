@@ -1,4 +1,37 @@
-﻿*{
+﻿#tetriscanvas {
+ display: block;
+ border: 1px solid black;
+}
+#tetris {
+ margin: 0 auto;
+ width: 480px; 
+ height: 600px; 
+ text-align: center;
+ clear: both;
+}
+#tetrisleft {
+ width: 300px;
+ min-width: 300px;
+ height: 600px; 
+ float: left; 
+ margin: 0px; 
+}
+#tetrisright {
+ width: 180px; 
+ min-width: 180px;
+ height: 600px; 
+ float: left; 
+ margin: 0px;
+}
+.clear {
+ clear: left; /* Отмена обтекания */
+}
+.info {
+ text-align: left;
+ margin-left: 24px;
+}
+
+*{
    margin: 0;
    padding: 0;
 }
@@ -176,11 +209,14 @@ footer nav a:hover{
     border-radius: 50%;
 }
 
-.bodyMainZ{
-    margin-top: 25px;  
+
+.bodyMain{
+    padding-top: 30px;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 200px;
+    width: 70%;
 }
-
-
 h3{
     text-align: justify;
     font-weight: normal;
@@ -202,17 +238,3 @@ p{
     max-width: 100%;
     box-sizing: border-box;
 }
-
-.bodyMain{
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 150px;
-    width: 70%;  
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-}
-#map {
-     height: 600px;
-     width: 70%;
-}
-
-

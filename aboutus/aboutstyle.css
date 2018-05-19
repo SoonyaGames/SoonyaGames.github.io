@@ -182,6 +182,7 @@ footer nav a:hover{
 
 .bodyMain{
     margin: auto;
+<<<<<<< HEAD
     margin-bottom: 200px;
     width: 70%;
   О нашем проекте
@@ -205,7 +206,12 @@ footer nav a:hover{
 
 
 <img src="cat.png"  width="50%" class="leftimg">
+=======
+    margin-bottom: auto;
+    width: 50%;
+>>>>>>> 1197f0061c2549c5910dbee8a3e784f2ead43771
 }
+
 h3{
     text-align: justify;
     font-weight: normal;

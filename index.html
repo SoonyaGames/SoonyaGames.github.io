@@ -1,87 +1,136 @@
 ﻿<!DOCTYPE HTML>
 <html>	
 <head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-  <title>Soon Ya</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <script type="text/javascript" src="JQuery.js"></script>  
-  <script type="text/javascript">$(window).on('load', function () {
-    var $preloader = $('#p_prldr'),
-        $svg_anm   = $preloader.find('.svg_anm');
-    $svg_anm.fadeOut();
-    $preloader.delay(500).fadeOut('slow');
-});</script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Soon Ya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script type="text/javascript" src="JQuery.js"></script> 
+    <script type="text/javascript" scr="DigitalClock.js"></script>
+    <script type="text/javascript">$(window).on('load', function () {
+            var $preloader = $('#p_prldr'),
+                $svg_anm   = $preloader.find('.svg_anm');
+            $svg_anm.fadeOut();
+            $preloader.delay(500).fadeOut('slow');
+        });</script>
 </head>
 <body>
-  <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка . . .</small></div></div>  
-  <header>
-    <div class="logo">
-      <a href="HTML.html"><img class="graficlogo" src="image/logo.png" alt="LOGO"></a>
-    </div>
-    <nav>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html">HOME</a>
-        <a href="aboutus/about.html">ABOUT US</a>
-        <a href="index.html">PROJECTS</a>
-        <a href="">CONTACTS</a>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <img src="" alt="" class="mw-100">
-    <div class="advanteges_conteiner">
-       <div class="advanteges">
+    <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка . . .</small></div></div>
+    
+        
+    <head>
+		<title> Digital Clock </title>
+		<style type= "text/css">
+			body
+            { 
+            }      
+			.clock
+			{
+		      position: absolute;
+			  top: 2%;
+			  left: 90%;
+			  color: #fff;
+			  font-size: 30px;
+			}
+		</style>
+	</head>
 
-          <div class="advanteges_item">
-             <a href="chessjsplay/chess.html"><img src="image/1.png" width="200" height="200" alt=""></a>
-             <div class="advanteges_name">
-                  <h2><a href="chessjsplay/chess.html">Шахматы</a></h>
-             </div>
-          </div>
-          
-          <div class="advanteges_item">
-             <a href="pacman/pacman.html"><img src="image/2.png" width="200" height="200" alt=""></a>
-                
-             <div class="advanteges_name">
-                 <h2><a href="pacman/pacman.html">Пакман</a></h>
-             </div>
-          </div>
-	  
-          <div class="advanteges_item">
-             <a href="seabattle/seabattle.html"><img src="image/3.png" width="200" height="200" alt=""></a>
-             <div class="advanteges_name">
-                <h2><a href="seabattle/seabattle.html">Морской бой</a></h>
-             </div>
-          </div>
-         
-          <div class="advanteges_item">
-             <a href=""><img src="image/1.png" width="200" height="200" alt=""></a>
-             <div class="advanteges_name">
-                  <h2><a href="">Игра №3</a></h>
-             </div>
-          </div>
-         
-       </div> 
+	<body>
+	<div id="MyClock" class="clock"></div>
+		<script type="text/javascript">
+		function showTime()
+		{
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+    			
+			h = (h<10)?"0"+h:h;
+			m = (m<10)?"0"+m:m;
+			s = (s<10)?"0"+s:s;
             
-    </div>  
-  <br></br> 
-  <br></br> 
+			var time = h + ":" + m + ":" + s;
+			document.getElementById("MyClock").innerText = time;
+			document.getElementById("MyClock").textContent = time;
+			
+			setTimeout(showTime, 1000);
+		}
+		showTime();
+	 	</script>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="image/logo.png" alt="LOGO"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="aboutus/about.html">ABOUT US</a>
+                <a href="index.html">PROJECTS</a>
+                <a href="contacts/contacts.html">CONTACTS</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img src="" alt="" class="mw-100">
+        <div class="advanteges_conteiner">
+            <div class="advanteges">
+                <div class="advanteges_item">
+                    <a href="chessjsplay/chess.html"><img src="image/1.png" width="200" height="200" alt=""></a>
+                    <div class="advanteges_name">
+                        <h2><a href="chessjsplay/chess.html">Шахматы</a></h2>
+                    </div>
+                </div>
+                <div class="advanteges_item">
+                    <a href="pacman/pacman.html"><img src="image/2.png" width="200" height="200" alt=""></a>   
+                    <div class="advanteges_name">
+                        <h2><a href="pacman/pacman.html">Пакман</a></h2>
+                    </div>
+                </div>
+                <div class="advanteges_item">
+                    <a href="seabattle/seabattle.html"><img src="image/4.png" width="200" height="200" alt=""></a>
+                    <div class="advanteges_name">
+                        <h2><a href="seabattle/seabattle.html">Морской бой</a></h2>
+                    </div>
+                </div>
+
+		<script class="clock/DigitalClock.js"></script>
+
+                <div class="advanteges_item">
+                    <a href="sapper/sapper.html"><img src="image/3.png" width="200" height="200" alt=""></a>
+                    <div class="advanteges_name">
+                        <h2><a href="sapper/sapper.html">Сапёр</a></h2>
+                    </div>
+                </div>
+                <div class="advanteges_item">
+                    <a href="tetris/tetris.html"><img src="image/5.png" width="200" height="200" alt=""></a>
+                    <div class="advanteges_name">
+                        <h2><a href="tetris/tetris.html">Тетрис</a></h2>
+                    </div>
+                </div> 
+                <div class="advanteges_item">
+                    <a href="sapper/sapper.html"><img src="image/6.png" width="200" height="200" alt=""></a>
+                   <div class="advanteges_name">
+                        <h2><a href="sapper/sapper.html">Гонки</a></h2>
+                    </div>
+                </div> 
+            </div>     
+        </div>
   </main>
   <footer>
-     <nav>
-        <a href="HTML.html">HOME</a>
-        <a href="game2.html">ABOUT US</a>
-        <a href="game2.html">PROJECTS</a>
-        <a href="game3.html">CONTACTS</a>
-     </nav>
-     <div class="social">
-        <a href="https://www.instagram.com/" target="_blank" ><img src="image/social/inst.png" alt=""></a>
-        <a href="https://ru-ru.facebook.com/" target="_blank"><img src="image/social/face.png" alt=""></a>
-        <a href="https://e.mail.ru/login" target="_blank"><img src="image/social/em.png" alt=""></a>
-        <a href="https://vk.com/" target="_blank"><img src="image/social/vk.png" alt="" width="43" height="43"></a> 
-     </div>
+      <nav>
+            <a href="index.html">HOME</a>
+            <a href="aboutus/about.html">ABOUT US</a>
+            <a href="index.html">PROJECTS</a>
+            <a href="contacts/contacts.html">CONTACTS</a>
+      </nav>
+      <div class="social">
+            <a href="https://www.instagram.com/" target="_blank" ><img src="image/social/inst.png" alt=""></a>
+            <a href="https://ru-ru.facebook.com/" target="_blank"><img src="image/social/face.png" alt=""></a>
+            <a href="https://e.mail.ru/login" target="_blank"><img src="image/social/em.png" alt=""></a>
+          <a href="https://vk.com/" target="_blank"><img src="image/social/vk.png" alt="" width="43" height="43"></a> 
+      </div>
   </footer>
   <script src="script.js"></script>
 </body>

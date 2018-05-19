@@ -120,20 +120,20 @@ footer nav a:hover{
     text-align:center;
     line-height:35px;}
  
-/* reset */
+
 html, body, div, span, h1, h2, p, a, img, strong, ul, li, button, footer, header {margin: 0; padding: 0; border: 0; }
 *, :after, :before {-webkit-box-sizing: border-box; }
 a, button, div {outline: none;}
 ul {list-style: none; display: block;}
 img {border: none;}
 
-/* grid */
-html, body, .wrap {height: 100%; margin-bottom: 100px}
-.wrap {width: 1024px; margin: 0 auto;  padding: 20px 0;}
+
+/*html, body, .wrap {height: 100%; margin-bottom: 100px}*/
+.wrap { height: 100%; margin-bottom: 100px width: 1024px; margin: 0 auto;  padding: 20px 0;}
 
 .ship, .icon-field, .btn-play {background: url('images/sprite.png') no-repeat;}
 
-/* typography */
+
 body { line-height: 24px; color: #4530af;}
 p {margin-bottom: 10px;}
 
@@ -195,3 +195,7 @@ p {margin-bottom: 10px;}
 .dot {background-position: -410px 0;}
 .red-cross {background-position: -410px -50px;}
 .shaded-cell {background-position: -410px -100px;}
+
+.main{
+    margin-bottom: 500px;
+}
